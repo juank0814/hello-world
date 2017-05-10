@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\juan carlos sierra\Documents\proyectos\proyectos.sch</source>
+    <date>05/09/17 06:27:25</date>
+    <tool>Eeschema 4.0.2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>CIRCUITO PARA LA MONITORIZACION DE ECG</title>
+        <company/>
+        <rev>V1.1</rev>
+        <date>2017-04-08</date>
+        <source>proyectos.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>AD8232</value>
+      <footprint>Huellas:AD8232_ECG</footprint>
+      <libsource lib="proyectos-cache" part="AD8232"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E96317</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58EA07F3</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X03</value>
+      <footprint>Huellas:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="proyectos-rescue" part="CONN_01X03-RESCUE-proyectos"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F66864</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X06</value>
+      <footprint>Huellas:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F99FFE</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ADP3339</value>
+      <libsource lib="proyectos-cache" part="ADP3339"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>590CA6A8</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>590E9D00</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 10M OHM 1% 1/8W 0805">311-10.0MCRTR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="10M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5911E5FC</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 10M OHM 1% 1/8W 0805">311-10.0MCRTR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="10M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5911E6BD</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>180K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 180K OHM 1% 1/8W 0805">311-180KCRTR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="180K"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5911EB6C</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>180K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 180K OHM 1% 1/8W 0805">311-180KCRTR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="180K"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5911EDC7</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>360K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 360K OHM 1% 1/8W 0805">311-360KCRTR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="360K"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591208FE</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 1M OHM 1% 1/8W 0805">311-1.00MCRTR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="1M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59121245</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 1M OHM 1% 1/8W 0805">311-1.00MCRTR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="1M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591227E0</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 100K OHM 0.1% 1/8W 0805">P100KDATR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="100K"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591232D3</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 1M OHM 1% 1/8W 0805">311-1.00MCRTR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="1M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59124948</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 10M OHM 1% 1/8W 0805">311-10.0MCRTR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="10M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59125EF9</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 10M OHM 1% 1/8W 0805">311-10.0MCRTR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="10M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59127C58</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 10M OHM 1% 1/8W 0805">311-10.0MCRTR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="10M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59128A42</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 10M OHM 1% 1/8W 0805">311-10.0MCRTR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="10M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5912B455</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1.4M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 1.4M OHM 1% 1/8W 0805">P1.4BTTR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="1.4M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5912BB17</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 1K OHM 1% 1/8W 0805">RMCF0805FT1K00TR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="1K"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5912CC9C</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>000</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 0.0 OHM JUMPER 1/8W 0805">311-0.0ARTR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="000"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5912DA45</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>000</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 0.0 OHM JUMPER 1/8W 0805">311-0.0ARTR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="000"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5912EA08</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 1K OHM 1% 1/8W 0805">RMCF0805FT1K00TR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="1K"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5912FABD</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="CAP CER 1000PF 50V C0G/NP0 0805">490-6441-2-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="1nF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59133EC4</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="CAP CER 10000PF 50V X7R 0805">399-7363-2-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="10nF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59135670</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1.5nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="CAP CER 1500PF 50V X7R 0805">1276-1794-2-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="1.5nF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59136B6C</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="CAP CER 0.1UF 25V X7R 0805">1276-2450-2-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="0.1uF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5913867D</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="CAP CER 0.1UF 25V X7R 0805">1276-2450-2-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="0.1uF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59139AC1</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.33uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="CAP CER 0.33UF 50V Y5V 0805">1276-3019-2-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="0.33uF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5913A5E9</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.33uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="CAP CER 0.33UF 50V Y5V 0805">1276-3019-2-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="0.33uF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5913AF9F</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="CAP CER 0.1UF 25V X7R 0805">1276-2450-2-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="0.1uF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5913BE16</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="CAP CER 1UF 50V Y5V 0805">1276-6495-2-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="1uF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5913CEA7</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="CAP CER 1UF 50V Y5V 0805">1276-6495-2-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="1uF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5913D45A</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 10K OHM 1% 1/8W 0805">RMCF0805FT10K0TR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="10K"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59141E03</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>000</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 0.0 OHM JUMPER 1/8W 0805">311-0.0ARTR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="000"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59142595</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>000</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 0.0 OHM JUMPER 1/8W 0805">311-0.0ARTR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="000"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5914306D</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="RES SMD 1K OHM 1% 1/8W 0805">RMCF0805FT1K00TR-ND</field>
+      </fields>
+      <libsource lib="resistencias_proy" part="1K"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591446F7</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="resistencias_proy" part="0.1uF">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.1uF</field>
+        <field name="Footprint">Capacitors_SMD:C_0805_HandSoldering</field>
+        <field name="CAP CER 0.1UF 25V X7R 0805">1276-2450-2-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistencias_proy" part="0.33uF">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.33uF</field>
+        <field name="Footprint">Capacitors_SMD:C_0805_HandSoldering</field>
+        <field name="CAP CER 0.33UF 50V Y5V 0805">1276-3019-2-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistencias_proy" part="000">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">000</field>
+        <field name="Footprint">Resistors_SMD:R_0805_HandSoldering</field>
+        <field name="RES SMD 0.0 OHM JUMPER 1/8W 0805">311-0.0ARTR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistencias_proy" part="1.4M">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1.4M</field>
+        <field name="Footprint">Resistors_SMD:R_0805_HandSoldering</field>
+        <field name="RES SMD 1.4M OHM 1% 1/8W 0805">P1.4BTTR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistencias_proy" part="1.5nF">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1.5nF</field>
+        <field name="Footprint">Capacitors_SMD:C_0805_HandSoldering</field>
+        <field name="CAP CER 1500PF 50V X7R 0805">1276-1794-2-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistencias_proy" part="100K">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100K</field>
+        <field name="Footprint">Resistors_SMD:R_0805_HandSoldering</field>
+        <field name="RES SMD 100K OHM 0.1% 1/8W 0805">P100KDATR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistencias_proy" part="10K">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10K</field>
+        <field name="Footprint">Resistors_SMD:R_0805_HandSoldering</field>
+        <field name="RES SMD 10K OHM 1% 1/8W 0805">RMCF0805FT10K0TR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistencias_proy" part="10M">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10M</field>
+        <field name="Footprint">Resistors_SMD:R_0805_HandSoldering</field>
+        <field name="RES SMD 10M OHM 1% 1/8W 0805">311-10.0MCRTR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistencias_proy" part="10nF">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10nF</field>
+        <field name="Footprint">Capacitors_SMD:C_0805_HandSoldering</field>
+        <field name="CAP CER 10000PF 50V X7R 0805">399-7363-2-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistencias_proy" part="180K">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">180K</field>
+        <field name="Footprint">Resistors_SMD:R_0805_HandSoldering</field>
+        <field name="RES SMD 180K OHM 1% 1/8W 0805">311-180KCRTR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistencias_proy" part="1K">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1K</field>
+        <field name="Footprint">Resistors_SMD:R_0805_HandSoldering</field>
+        <field name="RES SMD 1K OHM 1% 1/8W 0805">RMCF0805FT1K00TR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistencias_proy" part="1M">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1M</field>
+        <field name="Footprint">Resistors_SMD:R_0805_HandSoldering</field>
+        <field name="RES SMD 1M OHM 1% 1/8W 0805">311-1.00MCRTR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistencias_proy" part="1nF">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1nF</field>
+        <field name="Footprint">Capacitors_SMD:C_0805_HandSoldering</field>
+        <field name="CAP CER 1000PF 50V C0G/NP0 0805">490-6441-2-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistencias_proy" part="1uF">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF</field>
+        <field name="Footprint">Capacitors_SMD:C_0805_HandSoldering</field>
+        <field name="CAP CER 1UF 50V Y5V 0805">1276-6495-2-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistencias_proy" part="360K">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">360K</field>
+        <field name="Footprint">Resistors_SMD:R_0805_HandSoldering</field>
+        <field name="RES SMD 360K OHM 1% 1/8W 0805">311-360KCRTR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="proyectos-cache" part="AD8232">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD8232</field>
+      </fields>
+      <pins>
+        <pin num="1" name="HPDRIVE" type="passive"/>
+        <pin num="2" name="+IN" type="passive"/>
+        <pin num="3" name="-IN" type="passive"/>
+        <pin num="4" name="RLDFB" type="passive"/>
+        <pin num="5" name="RLD" type="passive"/>
+        <pin num="6" name="SW" type="passive"/>
+        <pin num="7" name="OPAMP+" type="passive"/>
+        <pin num="8" name="REFOUT" type="passive"/>
+        <pin num="9" name="OPAMP-" type="passive"/>
+        <pin num="10" name="OUT" type="passive"/>
+        <pin num="11" name="LOD-" type="passive"/>
+        <pin num="12" name="LOD+" type="passive"/>
+        <pin num="13" name="SDN" type="passive"/>
+        <pin num="14" name="AC/DC" type="passive"/>
+        <pin num="15" name="FR" type="passive"/>
+        <pin num="16" name="GND" type="passive"/>
+        <pin num="17" name="+VS" type="passive"/>
+        <pin num="18" name="REFIN" type="passive"/>
+        <pin num="19" name="IAOUT" type="passive"/>
+        <pin num="20" name="HPSENSE" type="passive"/>
+        <pin num="21" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="proyectos-cache" part="ADP3339">
+      <description>REGULADOR 3 V</description>
+      <docs>footprints/3 ld SOT-223.pdf</docs>
+      <footprints>
+        <fp>3_ld_SOT-223</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADP3339</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="OUT" type="passive"/>
+        <pin num="3" name="IN" type="passive"/>
+        <pin num="4" name="OUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="proyectos-rescue" part="CONN_01X03-RESCUE-proyectos">
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03-RESCUE-proyectos</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RL" type="passive"/>
+        <pin num="2" name="LA" type="passive"/>
+        <pin num="3" name="RA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <description>Connector 01x06</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="proyectos-rescue">
+      <uri>C:\Users\juan carlos sierra\Documents\proyectos\proyectos-rescue.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="proyectos-cache">
+      <uri>C:\Users\juan carlos sierra\Documents\proyectos\proyectos-cache.lib</uri>
+    </library>
+    <library logical="resistencias_proy">
+      <uri>C:\Users\juan carlos sierra\Documents\proyectos\proyectos\ESQUEMATICOS_PROYECTO\resistencias_proy.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/LOD-">
+      <node ref="U1" pin="11"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="21"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="P1" pin="6"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="3" name="/LOD+">
+      <node ref="U1" pin="12"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="4" name="+vs">
+      <node ref="U1" pin="15"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="17"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="R16" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="5" name="/REFOUT">
+      <node ref="C2" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="6" name="VCC">
+      <node ref="P1" pin="5"/>
+      <node ref="R18" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="7" name="/SDN">
+      <node ref="R19" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="8" name="/OUT">
+      <node ref="R20" pin="2"/>
+      <node ref="U1" pin="10"/>
+      <node ref="P1" pin="4"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="9" name="Net-(C7-Pad1)">
+      <node ref="R13" pin="2"/>
+      <node ref="U1" pin="20"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="10" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(D1-Pad2)">
+      <node ref="R15" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="12" name="Net-(C3-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="13" name="/OPAMP+">
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="14" name="Net-(R8-Pad2)">
+      <node ref="U1" pin="9"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="15" name="/SW">
+      <node ref="R14" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="16" name="LA">
+      <node ref="P2" pin="3"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="17" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="18" name="/IAOUT">
+      <node ref="U1" pin="19"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="19" name="Net-(C5-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="18"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="20" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="21" name="Net-(R17-Pad1)">
+      <node ref="U1" pin="14"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="22" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="23" name="ADC">
+      <node ref="C10" pin="1"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="24" name="Net-(R4-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="25" name="Net-(R3-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="26" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="27" name="RA">
+      <node ref="R1" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="28" name="RL">
+      <node ref="R5" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="30" name="/RLD">
+      <node ref="R5" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="31" name="/RLDFB">
+      <node ref="U1" pin="4"/>
+      <node ref="C1" pin="1"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,100 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0.1uF
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP 0.33uF
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP 000
+D Resistor
+$ENDCMP
+#
+$CMP 1.4M
+D Resistor
+$ENDCMP
+#
+$CMP 1.5nF
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP 100K
+D Resistor
+$ENDCMP
+#
+$CMP 10K
+D Resistor
+$ENDCMP
+#
+$CMP 10M
+D Resistor
+$ENDCMP
+#
+$CMP 10nF
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP 180K
+D Resistor
+$ENDCMP
+#
+$CMP 1K
+D Resistor
+$ENDCMP
+#
+$CMP 1M
+D Resistor
+$ENDCMP
+#
+$CMP 1nF
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP 1uF
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP 22pF
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP 360K
+D Resistor
+$ENDCMP
+#
+$CMP 470R
+D Resistor
+$ENDCMP
+#
+$CMP AD8232_A
+D MONITOR ECG
+K AD8232
+F C:/Users/juan carlos sierra/Desktop/PROYECTO GRADO/ECG/AD8232.pdf
+$ENDCMP
+#
+$CMP ADP3339
+D REGULADOR 3 V
+K 3 ld SOT-223
+F footprints/3 ld SOT-223.pdf
+$ENDCMP
+#
+$CMP Crystal_8MHz
+D Two pin crystal
+K Quartz, Resonator, Ceramic, Filter
+F C:/Users/juan carlos sierra/Desktop/PROYECTO GRADO/crystal_8MHz.pdf
+$ENDCMP
+#
+$CMP Crystal_Small
+D Two pin crystal
+K Quartz, Resonator, Ceramic, Filter
+$ENDCMP
+#
+$CMP PIC16F688
+D CONVERTIDOR A/D
+K PIC16F688
+F C:/Users/juan carlos sierra/Desktop/PROYECTO GRADO/PIC16F688.pdf
+$ENDCMP
+#
+#End Doc Library

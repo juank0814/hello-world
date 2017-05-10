@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADP3339
+D REGULADOR 3 V
+K 3 ld SOT-223
+F footprints/3 ld SOT-223.pdf
+$ENDCMP
+#
+#End Doc Library
