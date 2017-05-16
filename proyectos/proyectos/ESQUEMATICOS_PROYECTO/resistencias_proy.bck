@@ -36,6 +36,10 @@ $CMP 10nF
 D Unpolarized capacitor
 $ENDCMP
 #
+$CMP 10uF
+D Unpolarized capacitor
+$ENDCMP
+#
 $CMP 180K
 D Resistor
 $ENDCMP
@@ -64,6 +68,10 @@ $CMP 360K
 D Resistor
 $ENDCMP
 #
+$CMP 4.7uF
+D Unpolarized capacitor
+$ENDCMP
+#
 $CMP 470R
 D Resistor
 $ENDCMP
@@ -71,7 +79,13 @@ $ENDCMP
 $CMP AD8232_A
 D MONITOR ECG
 K AD8232
-F C:/Users/juan carlos sierra/Desktop/PROYECTO GRADO/ECG/AD8232.pdf
+F footprints/AD8232.pdf
+$ENDCMP
+#
+$CMP ADP3303-3.3
+D REGULADOR 3.3 V
+K ADP3303
+F footprints/ADP3303.pdf
 $ENDCMP
 #
 $CMP ADP3339
@@ -83,7 +97,7 @@ $ENDCMP
 $CMP Crystal_8MHz
 D Two pin crystal
 K Quartz, Resonator, Ceramic, Filter
-F C:/Users/juan carlos sierra/Desktop/PROYECTO GRADO/crystal_8MHz.pdf
+F footprints/crystal_8MHz.pdf
 $ENDCMP
 #
 $CMP Crystal_Small
@@ -94,7 +108,7 @@ $ENDCMP
 $CMP PIC16F688
 D CONVERTIDOR A/D
 K PIC16F688
-F C:/Users/juan carlos sierra/Desktop/PROYECTO GRADO/PIC16F688.pdf
+F footprints/PIC16F688.pdf
 $ENDCMP
 #
 #End Doc Library
