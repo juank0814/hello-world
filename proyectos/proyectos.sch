@@ -556,11 +556,11 @@ Text Label 9150 3700 1    47   ~ 0
 GND
 Text GLabel 8100 4250 0    47   Input ~ 0
 ADC
-Text Label 6250 6800 3    47   ~ 0
+Text Label 6450 6700 3    47   ~ 0
 GND
-Text Label 6350 6800 3    47   ~ 0
+Text Label 6250 6700 3    47   ~ 0
 O_DIG2
-Text Label 6450 6800 3    47   ~ 0
+Text Label 6350 6700 3    47   ~ 0
 O_DIG1
 Text Label 9950 3850 2    47   ~ 0
 MCLR/Vpp
@@ -1030,11 +1030,11 @@ Wire Wire Line
 Wire Wire Line
 	9150 3550 9150 3700
 Wire Wire Line
-	6250 6950 6250 6800
+	6250 6700 6250 6950
 Wire Wire Line
-	6350 6950 6350 6800
+	6350 6700 6350 6950
 Wire Wire Line
-	6450 6950 6450 6800
+	6450 6700 6450 6950
 Wire Wire Line
 	8100 4400 7650 4400
 Wire Wire Line
@@ -1261,4 +1261,28 @@ F 3 "" H 6350 7150 50  0000 C CNN
 	1    6350 7150
 	0    1    1    0   
 $EndComp
+$Comp
+L CONN_01X01 P8
+U 1 1 591B656B
+P 10300 5900
+F 0 "P8" H 10300 6000 50  0000 C CNN
+F 1 "CONN_01X01" V 10400 5900 50  0000 C CNN
+F 2 "Huellas:MountingHole_1.8mm_Pad" H 10300 5900 50  0001 C CNN
+F 3 "" H 10300 5900 50  0000 C CNN
+	1    10300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P7
+U 1 1 591B6624
+P 9350 5900
+F 0 "P7" H 9350 6000 50  0000 C CNN
+F 1 "CONN_01X01" V 9450 5900 50  0000 C CNN
+F 2 "Huellas:MountingHole_1.8mm_Pad" H 9350 5900 50  0001 C CNN
+F 3 "" H 9350 5900 50  0000 C CNN
+	1    9350 5900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10100 5900
+NoConn ~ 9150 5900
 $EndSCHEMATC

@@ -739,7 +739,7 @@ U 1 1 5919877E
 P 4800 7250
 F 0 "P5" H 4800 7450 50  0000 C CNN
 F 1 "CONN_01X03" V 4900 7250 50  0000 C CNN
-F 2 "Huellas:Pin_Header_Straight_1x03_Pitch2.54mm" H 4800 7250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4800 7250 50  0001 C CNN
 F 3 "" H 4800 7250 50  0000 C CNN
 	1    4800 7250
 	0    1    1    0   
