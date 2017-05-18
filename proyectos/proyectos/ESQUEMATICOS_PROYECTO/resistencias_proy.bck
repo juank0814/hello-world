@@ -64,6 +64,10 @@ $CMP 1nF
 D Unpolarized capacitor
 $ENDCMP
 #
+$CMP 1nF_1208
+D Unpolarized capacitor
+$ENDCMP
+#
 $CMP 1uF
 D Unpolarized capacitor
 $ENDCMP
@@ -81,6 +85,10 @@ D Unpolarized capacitor
 $ENDCMP
 #
 $CMP 470R
+D Resistor
+$ENDCMP
+#
+$CMP 78.7K
 D Resistor
 $ENDCMP
 #
