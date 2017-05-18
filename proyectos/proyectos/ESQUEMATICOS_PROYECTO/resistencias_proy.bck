@@ -40,8 +40,16 @@ $CMP 10uF
 D Unpolarized capacitor
 $ENDCMP
 #
+$CMP 140K
+D Resistor
+$ENDCMP
+#
 $CMP 180K
 D Resistor
+$ENDCMP
+#
+$CMP 18pF
+D Unpolarized capacitor
 $ENDCMP
 #
 $CMP 1K
@@ -86,6 +94,12 @@ $CMP ADP3303-3.3
 D REGULADOR 3.3 V
 K ADP3303
 F footprints/ADP3303.pdf
+$ENDCMP
+#
+$CMP ADP3334
+D REGULADOR 3.3 V
+K ADP3334
+F footprints/ADP3334.pdf
 $ENDCMP
 #
 $CMP ADP3339
